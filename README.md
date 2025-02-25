@@ -33,7 +33,7 @@ Python 3.x
 MongoDB (Atlas) https://cloud.mongodb.com/v2#/org/67bcf248522d882c630df7ec/projects
 
 ## Installation
-1 **Clone or download** this repository.
+1. **Clone or download** this repository.
 
 2. (Optional) **Create a virtual environment**:
 

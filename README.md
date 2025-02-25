@@ -5,10 +5,19 @@ A minimal Flask application that implements basic authentication with data store
 ## Features
 
 - **Login** and **logout**
+![image](https://github.com/user-attachments/assets/1058f64a-53a7-4ad3-9655-1c0080f617fc)
 - **Protected profile page** (only for authenticated users)
+- ![image](https://github.com/user-attachments/assets/d841bf94-2f97-433e-bb9e-04f9c5cdfb37)
 - **Registration**
-- **Password hashing** 
-- **Profile picture and info update** 
+- ![image](https://github.com/user-attachments/assets/f5bf4147-bb03-431c-80ce-e313867f26e3)
+- **Password hashing**
+- ![image](https://github.com/user-attachments/assets/b8eb5972-19b6-4d56-80ca-5ebbfc586874)
+- **Profile picture and info update**
+- ![image](https://github.com/user-attachments/assets/8862300f-84e6-46eb-9725-51bdd149f761)
+- ![image](https://github.com/user-attachments/assets/cedd7d5a-1bbd-4d67-b3ec-9b38a5cfcd01)
+- ![image](https://github.com/user-attachments/assets/6a59e6b6-cb09-4149-b14d-a73b26f0bd5e)
+
+
 
 ## Requirements
 Flask==2.2.5

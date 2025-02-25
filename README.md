@@ -21,9 +21,13 @@ A minimal Flask application that implements basic authentication with data store
 
 ## Requirements
 Flask==2.2.5
+
 Flask-PyMongo==2.3.0
+
 pymongo==4.3.3
+
 Werkzeug==2.2.3
+
 Python 3.x
 MongoDB (Atlas) https://cloud.mongodb.com/v2#/org/67bcf248522d882c630df7ec/projects
 

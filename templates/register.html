@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Register{% endblock %}
+{% block content %}
+<div class="login-wrapper">
+    
+  <div class="login-card">
+    <!-- Use the same icon file you used for the login page -->
+    <img src="{{ url_for('static', filename='images/add_user_icon.png') }}" alt="User Icon" class="user-icon">
+    <h2>Create Account</h2>
+    <!-- If you need a form, you can add it here. If you just want the icon and design, remove the form. -->
+    <form method="post" action="{{ url_for('register') }}">
+      <label for="username">Username</label>
+      <input type="text" name="username" id="username" required>
+
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" required>
+
+      <button type="submit">Register</button>
+    </form>
+    <p>Already have an account? <a href="{{ url_for('login') }}">Login here</a></p>
+  </div>
+</div>
+{% endblock %}
